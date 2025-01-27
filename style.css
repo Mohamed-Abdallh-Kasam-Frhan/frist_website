@@ -1,0 +1,118 @@
+body{
+
+    padding: 0px;
+    margin: 0;
+    background-color: #eee;
+    text-align: center;
+}
+.page_navigation_bar {
+background-color:rgb(22, 92, 243);
+width: 100%;
+flex-wrap: nowrap;
+border-radius: 5px;
+}
+ul{/* قائمة التنقل */ 
+list-style: none;
+display: flex;
+justify-content: space-between;
+
+}
+ div > ul> li >  a>img{
+width: 40px;
+height: 40px;
+border-radius: 20px;
+object-fit: cover;
+margin-top: 12px;
+ }
+ 
+
+ img :hover{
+width: 200px; 
+ }
+   
+.father_article{
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+
+
+}
+ 
+.article{
+
+ background:white;
+width: 450PX;
+height:250px;
+margin: 20px;
+border-radius: 20px;
+border: 2px black,solid;
+
+
+}
+header{
+    background-color: rgb(22, 92, 243);
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+    height: 30px;
+    padding: 5px;
+    color:white;
+    
+}
+.the_rights{
+    background-color:  rgb(22, 92, 243);
+    height: 100px;
+    color: azure;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+;
+}
+ div>img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+
+ }
+      
+ 
+form{
+width: 500px;
+height: 450px;
+background-color:white;
+padding: 20px;
+border-radius: 10px 50px ;
+margin: 50px auto;
+}
+input{
+    width: 70%;
+    height: 40px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color:white;
+}
+[type="button"]  {
+background-color: rgb(22, 92, 243);
+color:white;
+} 
+
+form span img{/*ايقونات التواصل داخل الفورم*/
+
+  height:40px;
+  width: 40px;
+  border-radius: 20px;
+  object-fit: cover;
+  margin-left: 20px;
+
+}
+a{
+
+    text-decoration: none;
+    color: black;
+}
+.about{
+background-color: white;
+height: 500px;
+line-height: ;
+ direction: rtl;
+}
+
