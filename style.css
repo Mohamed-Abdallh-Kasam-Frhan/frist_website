@@ -34,7 +34,7 @@ width: 200px;
 display: flex;
 justify-content: space-around;
 flex-wrap: wrap;
-
+width: 100%;
 
 }
  
@@ -76,7 +76,7 @@ header{
       
  
 form{
-width: 500px;
+    width: 500px;
 height: 450px;
 background-color:white;
 padding: 20px;
@@ -112,7 +112,50 @@ a{
 .about{
 background-color: white;
 height: 500px;
-line-height: ;
  direction: rtl;
 }
+@media (max-width : 768px){
+    .page_navigation_bar {
+width:100%;
+padding: 10px;
 
+    }
+.the_rights {
+    width: 100%;
+    padding: 10px;
+}
+form{
+    width:80%;
+    padding: 10px;
+
+}
+
+
+.article{
+
+    background:white;
+   width: 300px;
+   height:250px;
+   margin: 20px;
+    
+   
+   
+   }
+
+
+   
+.about{
+    background-color: white;
+    height:70%;
+     direction: rtl;
+     width: 90%;
+     
+
+}
+body{
+
+    text-align: center;
+}
+
+
+}
