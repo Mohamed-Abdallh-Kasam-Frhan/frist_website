@@ -16,7 +16,7 @@ body{
 
 
 .page_navigation_bar {
-background-color: rgb(39, 41, 70);
+background-color: rgb(31, 68, 160);
 width: 100%;
 flex-wrap: nowrap;
 border-radius: 5px;
@@ -113,7 +113,7 @@ header{
 
 
 .the_rights{
-    background-color:  rgb(39, 41, 55);
+    background-color:  rgb(31, 68, 160);
     height: 100px;
     color: azure;
     text-align: center;
@@ -218,16 +218,6 @@ form{
    
    }
 
-
-   
-.about{
-    background-color: white;
-    height:70%;
-     direction: rtl;
-     width: 90%;
-     
-
-} 
-
+  
 
 }
