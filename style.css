@@ -16,7 +16,7 @@ body{
 
 
 .page_navigation_bar {
-background-color:rgb(17, 15, 24);
+background-color: rgb(44, 48, 94);
 width: 100%;
  margin-bottom: 20px;
 border-radius: 5px;
@@ -105,7 +105,7 @@ div>img {
 
 
 header{
-    background-color:  #ded5d5;
+    background-color:  #97b1f2;
     text-align: center;
     border-radius: 15px 15px 0px 0px;
     height: 30px;
@@ -116,7 +116,7 @@ header{
 
 
 .the_rights{
-    background-color:  rgb(17, 15, 24);
+    background-color:  rgb(44, 48, 94);
     height: 120px;
     color: azure;  
      padding: 10px; 
