@@ -16,12 +16,12 @@ body{
 
 
 .page_navigation_bar {
-background-color: rgb(31, 68, 160);
+background-color:rgb(17, 15, 24);
 width: 100%;
-flex-wrap: nowrap;
+ margin-bottom: 20px;
 border-radius: 5px;
 padding: 5px;
-box-shadow: 0 0 12px rgb(55, 51, 197);
+box-shadow: 0 0 12px rgb(17, 15, 24);
 }
 
 
@@ -59,10 +59,11 @@ a{
    
 .father_article{
 display: flex;
-justify-content: space-around;
+justify-content: space-evenly;
 flex-wrap: wrap;
 width: 100%;
-
+text-align: center;
+margin-bottom: 20px;
 }
 
  .page_article{
@@ -79,8 +80,8 @@ width: 450PX;
 height:250px;
 margin: 20px;
 border-radius: 20px;
-border: 1px rgb(89, 44, 186),solid;
-box-shadow: 0 0 12px rgb(62, 62, 67);
+border: 1px rgb(24, 23, 27),solid;
+box-shadow: 0 0 8px rgb(22, 22, 25);
 }
 
 
@@ -97,32 +98,36 @@ div>img {
 
 
 .article:hover{
- background-color: rgb(208, 209, 217);   
+ background-color: rgb(227, 229, 243); 
+ 
 }
 
 
 
 header{
-    background-color: rgb(22, 140, 243);
+    background-color:  #ded5d5;
     text-align: center;
     border-radius: 15px 15px 0px 0px;
     height: 30px;
     padding: 5px;
-    color:white;
+    color:black;
     
 }
 
 
 .the_rights{
-    background-color:  rgb(31, 68, 160);
+    background-color:  rgb(17, 15, 24);
     height: 120px;
-    color: azure;
-    text-align: center;
-    padding-top: 20px
+    color: azure;  
+     padding: 10px; 
     
-;
+    
+
 }
-   
+.the_rights >p{
+
+    margin-top: 10px;
+}  
 
 form{
  width: 50px;
@@ -196,7 +201,7 @@ padding: 10px;
 
 .the_rights {
     width: 100%;
-    padding: 1px;
+    
 }
 
 form{
