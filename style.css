@@ -134,14 +134,14 @@ header{
     background-color:  rgb(19, 20, 37);
     height: 300px;
     color: azure;  
-     padding: 20px; 
+     padding: 50px; 
     
     
 
 }
 .the_rights >p{
 
-    margin-top: 10px;
+    margin-top:px;
 }  
 
 form{
@@ -216,7 +216,7 @@ padding: 10px;
 
 .the_rights {
     width: 100%;
-    padding: 0 10px;
+    padding: 50px 10px;
 }
 
 form{
