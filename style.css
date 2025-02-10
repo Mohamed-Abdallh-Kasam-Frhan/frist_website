@@ -8,13 +8,12 @@
 
 body{
  
-    background-color: beige;
+    background-color:white;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     direction: rtl;
+    
 }
-
-
 
 .page_navigation_bar {
 background-color:  rgb(19, 20, 37);
@@ -42,6 +41,7 @@ display: flex;
 justify-content:center;
 gap: 30px;
 }
+
 ul li{
     display: flex;
     justify-content: center;
@@ -83,7 +83,8 @@ a{
  justify-content: center;
  width: 100%;
  flex-direction: column;
- gap: px;
+ 
+  
  
  
 }
@@ -99,12 +100,13 @@ margin-bottom: 20px;
   line-height: 3;
   padding: 20px;
  }
+
 div.article{
-background:white;
+ background-color:rgb(242, 247, 247);
 margin: 10px auto;
 border-radius: 10px;
 border:0 rgb(24, 23, 27),solid;
- width:80%;
+ width:90%;
 height: auto;
 padding:10px;
  
@@ -122,15 +124,15 @@ div img {
 
 
 .article:hover{
- background-color: rgb(244, 245, 249); 
- width: 85%;
+ background-color:white;
+ width: 95%;
  
 }
 
 
 
 header {
-    background-color: rgb(199, 225, 246);;
+    background-color: rgb(225, 233, 239);;
     text-align: center;
     border-radius: 10px 10px 0px 0px;
     height: 40px;
@@ -193,7 +195,7 @@ color:white;
 }
 
 input:hover{
-    background-color: rgb(225, 221, 216);
+    background-color: rgb(251, 247, 241);
 }
 
 form span img{/*ايقونات التواصل داخل الفورم*/
